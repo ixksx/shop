@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин люстр LampShop</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        <div class="header_menu">   
+                <div class="logo">
+                    <a href="index.html"><img src="./assets/logo.png"></a>
+                </div>
+                <nav class="nav">
+                    <a class="link" href="index.html">Каталог</a>
+                    <a class="link" href="./pages/aboutus.html">О нас</a>
+                    <a class="link" href="./pages/new.html">Новинки</a>
+                    <a class="link" href="./pages/promotions.html">Акции</a>
+                    <a class="link" href="./pages/exhibitions.html">Выставки</a>
+                </nav>
+                <div class="btn_header">
+                    <button class="btn_registration"><a class="btn_link" href="#">Вход/регистрация</a></button>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="nav2">
+                    <a class="link2" href="index.html">Каталог</a>
+                    <a class="link2" href="./pages/aboutus.html">О нас</a>
+                    <a class="link2" href="./pages/new.html">Новинки</a>
+                    <a class="link2" href="./pages/promotions.html">Акции</a>
+                    <a class="link2" href="./pages/exhibitions.html">Выставки</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main_page">
+                <div class="filter">
+                    <div class="list_filters">
+                        <p>Цена</p>
+                        <span><label for="num_input">От</label></span>
+                        <input type="number" class="number_input" id="num_input">
+                        <span><label for="num_input2">до</label></span>
+                        <input type="number" class="number_input" id="num_input2">
+                        <label for="manufacturer">Производитель</label>
+                        <select id="manufacturer">
+                            <option>Tch</option>
+                            <option>ShopL</option>
+                            <option>Люстры</option>
+                            <option>Ужасномебель</option>
+                        </select>
+                        <div class="availability">
+                            <input type="checkbox" id="availability">
+                            <label for="availability">Есть в наличии</label>
+                        </div>
+                    </div>
+                    <div class="arrow-btn">
+                        <button  class="btn_filter"><img src="./assets/arrow1.png"></button>
+                    </div>
+                    <div class="arrow-btn_second">
+                        <button  class="btn_filter_second"><img src="https://cdn-icons-png.flaticon.com/512/54/54785.png"></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page1.html"><img src="https://cs6.livemaster.ru/storage/88/92/f3677f80b26eb7b49a90dc565c1f.jpg">
+                            <h2>Люстра Самодельная</h2>
+                            <p>Люстра ручной работы</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page1.html">340 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page1.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page2.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-9s7Gf1wxbUCM3mnxsbwXOr0K8OhUcD6-n5amPfTAuschaRPNf6VFy9ZOTMjk6C5Itj0&usqp=CAU">
+                            <h2>Скорпион на потолке</h2>
+                            <p>Люстра с интересным дизайном</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page2.html">12 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page2.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page3.html"><img src="https://www.lampatron.ru/media/lampholders/lampholders-sborka-6-b185.jpg">
+                            <h2>Люстра-паук</h2>
+                            <p>Стильная люстра с необычным названием</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page3.html">35 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page3.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page4.html"><img src="https://s.alicdn.com/@sc04/kf/H636d7572ca90497c873e6cfe502185348.jpg_300x300.jpg">
+                            <h2>Всё и сразу</h2>
+                            <p>Люстра для любителей яркого</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page4.html">44 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page4.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page5.html"><img src="https://ae04.alicdn.com/kf/Hb5d8d5cc5cf947c281a8f6dce8add732A.jpg">
+                            <h2>Осьминог на потолке</h2>
+                            <p>Шикарная, завораживающая люстра</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page5.html">40 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page5.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page6.html"><img src="https://i.pinimg.com/originals/24/5a/f2/245af213b52501b6a78612ac5fc5a829.jpg">
+                            <h2>Разноцветный дождь</h2>
+                            <p>Люстра ручной работы</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page6.html">1 200₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page6.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page7.html"><img src="https://zagony.ru/uploads/posts/2010-02/1266314809_003.jpg">
+                            <h2>Драгоценный паук</h2>
+                            <p>Необычная и сверкающая люстра</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page7.html">45 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page7.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page8.html"><img src="https://ae04.alicdn.com/kf/H2386faaca49f4cf4995b41191b3056c3u.jpg">
+                            <h2>Смелое решение</h2>
+                            <p>Достаточно необычная люстра</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page8.html">40 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page8.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page9.html"><img src="https://matrasi.org/wp-content/uploads/neobychnye-lyustry-v-interere_6425c890657fd.jpeg">
+                            <h2>Люстра-верёвка</h2>
+                            <p>Очень простая люстра</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page9.html">40 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page9.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card_txt">
+                            <a href="./pages/page10.html"><img src="https://s00.yaplakal.com/pics/pics_original/6/1/3/10016316.jpg">
+                            <h2>Для ценителей</h2>
+                            <p>Люстра не ручной работы</p></a>
+                        </div>
+                        <div class="price_btn">
+                            <h3><a href="./pages/page10.html">740 000₽</a></h3>
+                            <button class="card_btn"><a href="./pages/page10.html">Подробнее</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_text">   
+                <div class="logo">
+                    <img src="./assets/logo.png">
+                </div>
+               <div class="information1">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Политика обработки персональных данных</a>
+               </div>
+                <div class="information2">
+                    <a href="#">адрес: г. Москва, ул.Карпова,21 к.2</a>
+                    <a href="mailto:terriblechandelier@gmail.com">email: terriblechandelier@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/burger_menu.js"></script>
+    <script src="./js/filter.js"></script>
+</body>
+</html>
